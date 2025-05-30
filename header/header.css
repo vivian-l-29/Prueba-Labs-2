@@ -1,0 +1,69 @@
+.header{
+    width: 100%;
+    height: 6rem;
+    display: grid;
+    grid-template-columns: 6rem 1fr 6rem;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.btn-menu{
+ grid-row: 1/3;
+    background-color: #ECF0F4;
+    border-radius: 100%;
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+}
+
+.txt-naranja{
+    color: #FC6E2A;
+    font-weight: 800;
+    font-size: 1.2rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-self: flex-end;
+
+}
+
+.txt-negro{
+    color: #676767;
+    font-weight: 400;
+    grid-row: 2/3;
+    grid-template-columns: 2/3;
+}
+
+.btb-car{
+    background-color: black;
+    border-radius: 100%;
+    width: 4.5rem;
+    height: 4.5rem;
+    grid-row: 1/3;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cantidad-car{
+    background-color: #FF7622;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 30px;
+    bottom: 25px;
+   
+}
