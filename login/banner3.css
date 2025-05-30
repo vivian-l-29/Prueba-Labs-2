@@ -1,0 +1,71 @@
+.seccion-banner1{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+.img-banner{
+    width: 100%;
+    max-width: 24rem;
+    height: 30rem;
+    background-color: gray;
+    border-radius: 12px;
+    margin-top: 30%;
+}
+
+.seccion-banner1 h1{
+    font-size: 2.4rem;
+    margin-top: 6rem;
+}
+
+.seccion-banner1 p{
+    font-size: 1.8rem;
+    color: #646982;
+    margin-top: 1.5rem;
+}
+
+.caja-puntos{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem 0 ;
+}
+
+.caja-puntos a{
+   display: block;
+    height: 1rem;
+    width: 1rem;
+    background-color: #FFE1CE;
+    border-radius: 100%;
+ 
+}
+
+.caja-puntos .punto3{
+    background-color: #FF7266;
+}
+
+
+.btn-text{
+    display: block;
+    width: 100%;
+    padding: 1.8rem 0;
+    background-color: #FF7622;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+.btn-skip{
+    display: block;
+    width: 400px;
+    padding: 1.8rem 0;
+    font-size: 1.2rem;
+    color: #646982;
+}

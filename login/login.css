@@ -1,0 +1,196 @@
+body{
+    width:100% ;
+    max-width: 40rem;
+}
+
+.texto{
+    margin-top: 19px;
+    margin-left: 13px;
+    font-size: 15px;
+}
+
+.txt-negro{
+    font-size: 15px;
+}
+
+.txt-naranja{
+    font-size: 10px;
+}
+
+.buscador {
+    padding: 16px;
+  }
+  
+  .buscador-caja {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 12px 16px;
+  }
+  
+  .icono img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .texto-fondo {
+    color: #999;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+   
+.encabezado-seccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.encabezado-seccion h3 {
+  margin: 0;
+  font-weight: 600;
+  color: #32343E;
+}
+
+.encabezado-seccion a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 80px;
+}
+
+.carta-restaurante {
+  background: #f2f4f7;
+  margin: 16px;
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.imagen-restaurante {
+  background: #c4c4c4;
+  height: 140px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+
+.carta-restaurante h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.etiquetas {
+  font-size: 14px;
+  color: #888;
+  margin: 4px 0 8px;
+}
+
+.info-restaurante {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  color: #555;
+  align-items: center;
+}
+
+.dato {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dato img {
+  width: 16px;
+  height: 16px;
+}
+
+.categorias {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.categoria {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px #EFE6E1;
+}
+
+.categoria.activa {
+  background-color: #FFD27C; 
+}
+
+.circulo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.all {
+  background-color: #98A8B8;
+}
+
+.hotdog {
+  background-color: #98A8B8;
+}
+
+.burger {
+  background-color: #98A8B8;
+}
+
+.imagen-restaurante2 {
+  background: #c4c4c4;
+  height: 120px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.encabezado-seccion img{
+  height: 10px;
+  margin-right: 24px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .encabezado-seccion {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .categorias {
+    justify-content: flex-start;
+    
+  }
+
+  .carta-restaurante {
+    max-width: 100%;
+  }
+
+  .imagen-restaurante {
+    height: 100px;
+  }
+
+  .buscador-caja {
+    flex-direction: column;
+  }
+
+  .texto {
+    font-size: 18px;
+  }
+}
+
