@@ -139,7 +139,13 @@ body{
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  
+}
+
+.circulo .si {
+  background-color: #98A8B8;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .hotdog {
