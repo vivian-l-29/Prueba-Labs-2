@@ -76,6 +76,13 @@ body{
   margin-bottom: 12px;
 }
 
+.imagen-restaurante .ok{
+  height: 140px;
+  width: 335px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+
 .carta-restaurante h4 {
   margin: 0;
   font-size: 18px;
