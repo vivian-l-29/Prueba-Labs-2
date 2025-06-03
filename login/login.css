@@ -70,7 +70,6 @@ body{
 }
 
 .imagen-restaurante {
-  background: #c4c4c4;
   height: 140px;
   border-radius: 15px;
   margin-bottom: 12px;
@@ -207,7 +206,7 @@ body{
   }
 
   .imagen-restaurante {
-    height: 50x;
+    height: 100%;
   }
 
   .buscador-caja {
