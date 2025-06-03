@@ -80,7 +80,7 @@ body{
   height: 140px;
   width: 335px;
   border-radius: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .carta-restaurante h4 {
@@ -170,9 +170,10 @@ body{
   background-color: #98A8B8;
 }
 
-.imagen-restaurante2 {
+.imagen-restaurante2  .os{
   background: #c4c4c4;
-  height: 120px;
+  height: 130px;
+  width: 335px;
   border-radius: 15px;
   margin-bottom: 12px;
   margin-top: 20px;
@@ -206,7 +207,7 @@ body{
   }
 
   .imagen-restaurante {
-    height: 100px;
+    height: 50x;
   }
 
   .buscador-caja {
